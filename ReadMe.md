@@ -32,12 +32,12 @@ Rather than just a CRUD app, FleetSync models **autonomous truck units** that be
 ### Phase 1: Core Prototype (MVP)
 
 - [x] CLI menu system for Dispatcher and Driver roles.
-- [] Define TruckUnit, Cargo, Route, and Event models.
-- [] Implement state machine for truck units.
-- [] Implement dispatcher commands (assign cargo, view trucks, view cargo).
-- [] Implement driver commands (accept/reject cargo, update route status).
-- [] Record events with timestamps.
-- [] Enforce cargo and truck assignment rules (no double-assignments).
+- [ ] Define TruckUnit, Cargo, Route, and Event models.
+- [ ] Implement state machine for truck units.
+- [ ] Implement dispatcher commands (assign cargo, view trucks, view cargo).
+- [ ] Implement driver commands (accept/reject cargo, update route status).
+- [ ] Record events with timestamps.
+- [ ] Enforce cargo and truck assignment rules (no double-assignments).
 
 ### Phase 2: Embedded Systems Extensions (Optional)
 
