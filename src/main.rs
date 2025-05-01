@@ -64,6 +64,11 @@ impl App {
             let painter = ui.painter();
             painter.rect_filled(rect, 0.0, Color32::from_gray(30));
 
+            let road_width = rect.width() * 0.8;
+            let road_height = rect.height() * 0.1;
+
+            
+            
             let road_rect = Rect::from_min_size(
                 Pos2::new(rect.left() + 100.0, rect.top() + 200.0),
                 egui::vec2(600.0, 60.0),
